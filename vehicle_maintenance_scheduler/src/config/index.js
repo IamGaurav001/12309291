@@ -5,6 +5,8 @@ const config = {
     port: process.env.PORT || 3000,
     baseUrl: process.env.EVALUATION_SERVICE_BASE_URL || 'http://4.224.186.213/evaluation-service',
     token: process.env.EVALUATION_TOKEN || process.env.BEARER_TOKEN || 'TRvZWq',
+    clientId: process.env.CLIENT_ID,
+    clientSecret: process.env.CLIENT_SECRET,
     env: process.env.NODE_ENV || 'development'
 };
 
