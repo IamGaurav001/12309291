@@ -1,0 +1,15 @@
+{
+  "name": "scheduler-app",
+  "version": "1.0.0",
+  "description": "My vehicle scheduler app for the intern evaluation",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
