@@ -1,8 +1,12 @@
-# Screenshots Folder
+# Screenshots
 
-Put your screenshots here!
+This directory contains verification screenshots for the assessment stages.
 
-You should include:
-1. **Postman request/response** for `GET http://localhost:3000/api/schedule?depotId=1`
-2. **Response time** from Postman.
-3. **Log file content** from `logging_middleware/logs/service.log` to show the logs are being created.
+## 1. Backend Microservice (Stages 1-5)
+- **schedule-api.png**: Postman request for `GET /api/schedule?depotId=1`.
+- **optimization-output.png**: Detailed JSON response showing the 0/1 Knapsack optimization results.
+- **logger-success.png**: Content of `logging_middleware/logs/service.log` showing structured logs and successful remote log submission.
+
+## 2. Priority Inbox (Stage 6)
+- **campus_notification.png**: Postman response from the external Notification API using the Bearer JWT.
+- **priority_inbox.png**: Terminal output of `node priority_inbox.js` showing the Min-Heap algorithm sorting the top 10 notifications.
